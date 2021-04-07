@@ -1,0 +1,40 @@
+:root {
+    --main-color: #1b1b1b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--main-color);
+    color: #fff;
+
+    // font-family: 'Kaushan Script', cursive;
+    // font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+@import './globals/global-mixins';
+@import './globals/global-classes';
+@import './main/header';
+@import './main/about-us';
+@import './main/our-menu';
+@import './main/gallery';
+@import './main/review';
+@import './main/team';
+@import './main/blog';
+@import './main/contact';
+
+
+
